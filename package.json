@@ -41,18 +41,47 @@
     "prettier": "^1.19.1"
   },
   "dependencies": {
-    "standard-version": "^7.0.1"
+    "dotenv": "^8.2.0",
+    "level": "^6.0.0",
+    "matrix-js-sdk": "^2.4.3",
+    "path": "^0.12.7",
+    "standard-version": "^7.0.1",
+    "winston": "^3.2.1"
   },
   "standard-version": {
     "types": [
-      {"type": "feat", "section": "Features"},
-      {"type": "fix", "section": "Bug Fixes"},
-      {"type": "ci", "section": "CI/Build"},
-      {"type": "chore", "hidden": true},
-      {"type": "docs", "section": "Documentation"},
-      {"type": "style", "hidden": true},
-      {"type": "refactor", "section": "Refactor"},
-      {"test": "test", "section": "Testing"}
+      {
+        "type": "feat",
+        "section": "Features"
+      },
+      {
+        "type": "fix",
+        "section": "Bug Fixes"
+      },
+      {
+        "type": "ci",
+        "section": "CI/Build"
+      },
+      {
+        "type": "chore",
+        "hidden": true
+      },
+      {
+        "type": "docs",
+        "section": "Documentation"
+      },
+      {
+        "type": "style",
+        "hidden": true
+      },
+      {
+        "type": "refactor",
+        "section": "Refactor"
+      },
+      {
+        "test": "test",
+        "section": "Testing"
+      }
     ]
   }
 }
