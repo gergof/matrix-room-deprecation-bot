@@ -1,0 +1,1260 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"readFil",
+				"readFileSync\tnode_modules/jsonfile"
+			],
+			[
+				"Electr",
+				"ElectronNotarize〔variable〕"
+			],
+			[
+				"build",
+				"builderConf〔variable〕"
+			],
+			[
+				"electr",
+				"electron-resources"
+			],
+			[
+				"Ent",
+				"EntryEdit"
+			],
+			[
+				"E",
+				"EntryEdit"
+			],
+			[
+				"se",
+				"searchResults"
+			],
+			[
+				"sear",
+				"searchTerm"
+			],
+			[
+				"searc",
+				"searchResults"
+			],
+			[
+				"search",
+				"searchTerm"
+			],
+			[
+				"hou",
+				"hoursAndMinutes"
+			],
+			[
+				"hours",
+				"hoursAndMinutesToSeconds"
+			],
+			[
+				"icon",
+				"iconsTimerTicking"
+			],
+			[
+				"starte",
+				"startedTwoWinIcon"
+			],
+			[
+				"start",
+				"startedOneMacIcon"
+			],
+			[
+				"offli",
+				"offlineMacIcon"
+			],
+			[
+				"inac",
+				"inactiveWinIcon"
+			],
+			[
+				"inat",
+				"inactiveMacIcon"
+			],
+			[
+				"tray",
+				"tray-icons"
+			],
+			[
+				"wit",
+				"withAutoFocus"
+			],
+			[
+				"time",
+				"TimePicker"
+			],
+			[
+				"DatePick",
+				"DatePickerDialog"
+			],
+			[
+				"TaskChek",
+				"TaskCheckboxCompleted"
+			],
+			[
+				"entri",
+				"entriesWithPageInfo"
+			],
+			[
+				"complete",
+				"completeProps"
+			],
+			[
+				"Internal",
+				"INTERNAL_SERVER_ERROR"
+			],
+			[
+				"format",
+				"format24"
+			],
+			[
+				"query",
+				"query"
+			],
+			[
+				"compa",
+				"companyFirstDayOfWeek"
+			],
+			[
+				"user",
+				"userFirstDayOfWeek"
+			],
+			[
+				"typo",
+				"Typography"
+			],
+			[
+				"ip",
+				"ipcListener"
+			],
+			[
+				"pro",
+				"process"
+			],
+			[
+				"shif",
+				"shiftKey"
+			],
+			[
+				"entry",
+				"EntryFragment"
+			],
+			[
+				"mark",
+				"MarkAsCompleteIcon"
+			],
+			[
+				"Mark",
+				"MarkAsCompleteIcon"
+			],
+			[
+				"elecr",
+				"electronProcess"
+			],
+			[
+				"OpenInA",
+				"OpenInAppIcon"
+			],
+			[
+				"native-",
+				"native-dependencies-install"
+			],
+			[
+				"too",
+				"Tooltip"
+			],
+			[
+				"taskid",
+				"task_id"
+			],
+			[
+				"commit",
+				"commitEntryToServer"
+			],
+			[
+				"action_commitEn",
+				"action_commitEntryToServerFailed"
+			],
+			[
+				"Stat",
+				"StatsForApp"
+			],
+			[
+				"entryLis",
+				"entryListByDay"
+			],
+			[
+				"visib",
+				"VisibilitySensor"
+			],
+			[
+				"recor",
+				"recordButton"
+			],
+			[
+				"recordButt",
+				"recordButton__border"
+			],
+			[
+				"setFil",
+				"setFilteringToDay"
+			],
+			[
+				"setFi",
+				"setFilteringToTask"
+			],
+			[
+				"setFilter",
+				"setFilteringToDay"
+			],
+			[
+				"disp",
+				"dispatch"
+			],
+			[
+				"setFilt",
+				"setFilteringToTask"
+			],
+			[
+				"displ",
+				"displayFilter"
+			],
+			[
+				"ony",
+				"onlyForCurrentTask"
+			],
+			[
+				"displa",
+				"displayFilterSetCurrentTask"
+			],
+			[
+				"filter",
+				"filteringToDay"
+			],
+			[
+				"sts",
+				"statsWidth"
+			],
+			[
+				"option",
+				"option2"
+			],
+			[
+				"slideSe",
+				"slideSelector__option"
+			],
+			[
+				"auth_pass",
+				"auth_passwordInput"
+			],
+			[
+				"auth_use",
+				"auth_usernameInput"
+			],
+			[
+				"tran",
+				"transform\tproperty"
+			],
+			[
+				"exclude",
+				"excludeEntry"
+			],
+			[
+				"ease",
+				"ease-in-out\ttransition-timing-function"
+			],
+			[
+				"backgrdo",
+				"background\tproperty"
+			],
+			[
+				"stat",
+				"statsVisible"
+			],
+			[
+				"Resi",
+				"ResizeHorizon"
+			],
+			[
+				"Res",
+				"ResizeHorizon"
+			],
+			[
+				"resiz",
+				"ResizeHorizon"
+			],
+			[
+				"timeSp",
+				"timeSpentByTasks"
+			],
+			[
+				"St",
+				"StatsForProjects"
+			],
+			[
+				"Proj",
+				"ProjectsHolder"
+			],
+			[
+				"grd",
+				"gridTemplate"
+			],
+			[
+				"Entri",
+				"EntriesHead"
+			],
+			[
+				"committ",
+				"committedEntries"
+			],
+			[
+				"Projec",
+				"ProjectsHOC"
+			],
+			[
+				"entryList",
+				"entryListByTask"
+			],
+			[
+				"taskList",
+				"taskListByProject"
+			],
+			[
+				"newTaskL",
+				"newTaskListByProject"
+			],
+			[
+				"commitEntry",
+				"commitEntryToServer"
+			],
+			[
+				"tasksFet",
+				"actions_tasksFetchFailed"
+			],
+			[
+				"tasksFeth",
+				"actions_tasksFetchReceived"
+			],
+			[
+				"project",
+				"projectsFetchFailed"
+			],
+			[
+				"commitEn",
+				"action_commitEntryToServerSucceeded"
+			],
+			[
+				"__EN",
+				"__ENTRY_COMMIT_TOSERVER_REQUEST__"
+			],
+			[
+				"had",
+				"handleAddProject"
+			],
+			[
+				"crea",
+				"createWindow"
+			],
+			[
+				"grid-templ",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"Weat",
+				"WeatherTemperatureComponent"
+			],
+			[
+				"Weath",
+				"WeatherBody"
+			],
+			[
+				"Wea",
+				"WeatherList"
+			],
+			[
+				"We",
+				"WeatherAppHOC"
+			],
+			[
+				"W",
+				"WeatherApp"
+			],
+			[
+				"action_",
+				"action_weatherFailed"
+			],
+			[
+				"action_we",
+				"action_weatherReceived"
+			],
+			[
+				"save",
+				"saveStoreToLocalStorage"
+			],
+			[
+				"wea",
+				"WeatherComponent"
+			],
+			[
+				"Comm",
+				"CommentList"
+			],
+			[
+				"handle",
+				"handleTextInput"
+			],
+			[
+				"TodoCo",
+				"TodoControlContainer"
+			],
+			[
+				"text",
+				"textboxKeypress"
+			],
+			[
+				"replace",
+				"replace_only"
+			],
+			[
+				"replac",
+				"replace_only"
+			],
+			[
+				"repl",
+				"replace_only"
+			],
+			[
+				"repo",
+				"repository"
+			],
+			[
+				"CHARS",
+				"CHARSFORHOST"
+			],
+			[
+				"fire",
+				"firewalld"
+			],
+			[
+				"forw",
+				"forwarded_port"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": ".eslintrc.json",
+			"settings":
+			{
+				"buffer_size": 279,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".prettierrc.json",
+			"settings":
+			{
+				"buffer_size": 55,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/gergo/.config/sublime-text-3/Packages/JsPrettier/JsPrettier.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 19276,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"jspre",
+				"Preferences: JsPrettier Settings - Default"
+			],
+			[
+				"close pro",
+				"Project: Close"
+			],
+			[
+				"close all",
+				"File: Close All"
+			],
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"jspretti",
+				"JsPrettier: Format Code"
+			],
+			[
+				"babe",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"close al",
+				"File: Close All"
+			],
+			[
+				"jspr",
+				"JsPrettier: Format Code"
+			],
+			[
+				"babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"ba",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"git diff",
+				"Git: Diff Tool All"
+			],
+			[
+				"git: diff",
+				"Git: Diff All Files"
+			],
+			[
+				"sublime merge",
+				"Sublime Merge: Blame File"
+			],
+			[
+				"versio",
+				"Package Control: Remove Repository"
+			],
+			[
+				"b",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"bable",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"babel sy",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"bable sy",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"esc",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"html sy",
+				"Set Syntax: HTML"
+			],
+			[
+				"js babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"synt\tjso",
+				"Set Syntax: JSON"
+			],
+			[
+				"syntax babe",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"prett",
+				"JsPrettier: Format Code"
+			],
+			[
+				"jsprettie",
+				"JsPrettier: Format Code"
+			],
+			[
+				"jsp",
+				"JsPrettier: Format Code"
+			],
+			[
+				"jsP",
+				"JsPrettier: Format Code"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+			"ls",
+			"node",
+			"noe"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/gergo/Documents/matrix-room-deprecation-bot"
+	],
+	"file_history":
+	[
+		"/home/gergo/Documents/matrix-room-deprecation-bot/.gitignore",
+		"/home/gergo/Documents/matrix-room-deprecation-bot/src/index.js",
+		"/home/gergo/Documents/matrix-room-deprecation-bot/matrix-room-deprecation-bot.sublime-project",
+		"/home/gergo/Documents/Paymo/widget/electron-builder.json",
+		"/home/gergo/Documents/Paymo/widget/electron-resources/electron-main/AutoUpdater.js",
+		"/home/gergo/Documents/Paymo/widget/package.json",
+		"/home/gergo/Documents/Paymo/widget/CHANGELOG.md",
+		"/home/gergo/Documents/Paymo/widget/electron-resources/electron-main/MainWindow.js",
+		"/home/gergo/Documents/Paymo/widget/scripts/cleaning-installers.js",
+		"/home/gergo/Documents/Paymo/widget/electron-resources/electron-main/MainProcess.js",
+		"/home/gergo/Documents/Paymo/widget/electron-resources/hooks/afterSignHook.js",
+		"/home/gergo/Documents/Paymo/widget/electron-resources/hooks/afterPackHook.js",
+		"/home/gergo/Documents/Paymo/widget/README.md",
+		"/home/gergo/Documents/Paymo/widget/electron-resources/entitlements.mac.plist",
+		"/home/gergo/Documents/Paymo/widget/electron-resources/afterSignHook.js",
+		"/home/gergo/Documents/Paymo/widget/.gitlab-ci.yml",
+		"/home/gergo/.config/sublime-text-3/Packages/JsPrettier/JsPrettier.sublime-settings",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/components/ListView/TaskGroupView.js",
+		"/home/gergo/Documents/Paymo/widget/src/components/TaskInfoView.js",
+		"/home/gergo/Documents/Paymo/widget/electron-resources/electron-main/Tray.js",
+		"/home/gergo/Documents/Paymo/widget/.env",
+		"/home/gergo/Documents/Paymo/widget/.env.development",
+		"/home/gergo/Documents/Paymo/widget/scripts/generate-installers.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/EntriesAdd/components/MainView.js",
+		"/home/gergo/Documents/Paymo/widget/src/components/EntryEdit/components/MainView.js",
+		"/home/gergo/Documents/Paymo/widget/src/components/EntryEdit/components/Projects/ProjectSelectView.js",
+		"/home/gergo/Documents/Paymo/widget/src/components/SearchField.js",
+		"/home/gergo/Documents/Paymo/widget/src/hocs/withSearch.js",
+		"/home/gergo/Documents/Paymo/widget/src/components/EntryEdit/components/Tasks/TaskSelectView.js",
+		"/home/gergo/Documents/Paymo/widget/src/components/EntryEdit/components/Tasklists/TasklistSelectView.js",
+		"/home/gergo/Documents/Paymo/widget/src/components/EntryEdit/components/Action/ActionView.js",
+		"/home/gergo/Documents/Paymo/widget.sublime-project",
+		"/home/gergo/Documents/Paymo/widget/src/components/icons/StartTimerBig.js",
+		"/home/gergo/Documents/Paymo/widget/src/components/EntryEdit/components/Action/TimerView.js",
+		"/home/gergo/Documents/Paymo/widget/src/hocs/withSearchFocus.js",
+		"/home/gergo/Documents/Paymo/widget/src/components/EntryEdit/index.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/components/EntriesView.js",
+		"/home/gergo/Documents/Paymo/widget/src/components/EntryEdit/enhancers/withEntryEdit.js",
+		"/home/gergo/Documents/Paymo/widget/src/utils/index.js",
+		"/home/gergo/Documents/Paymo/widget/src/components/EntryEdit/components/Action/BulkView.js",
+		"/home/gergo/Documents/Paymo/widget/src/components/EntryEdit/components/Action/IntervalView.js",
+		"/home/gergo/Documents/Paymo/widget/src/components/TimePicker.js",
+		"/home/gergo/Documents/Paymo/widget/src/components/DurationField.js",
+		"/home/gergo/Documents/Paymo/widget/src/components/SwipeableView.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/components/EntriesAppBarView.js",
+		"/home/gergo/Documents/Paymo/widget/scripts/electron.js",
+		"/home/gergo/Documents/Paymo/widget/config/paths.js",
+		"/home/gergo/Documents/Paymo/widget/scripts/test.js",
+		"/home/gergo/Documents/Paymo/widget/electron-resources/electron-main/AutoLaunch.js",
+		"/home/gergo/Documents/Paymo/widget/src/app/Root.js",
+		"/home/gergo/Documents/Paymo/widget/src/data/apollo/client.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/EntriesEdit/components/MainView.js",
+		"/home/gergo/Documents/Paymo/widget/src/data/task/api.js",
+		"/home/gergo/Documents/Paymo/widget/src/data/task/queries/CreateTask.graphql",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/enhancers/data/index.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/enhancers/data/queries/StopTimer.graphql",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/components/Timer/Idle/Idle.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/components/Timer/Runner/RunnerView.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/components/Timer/TimerView.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/components/ListView/EntryView.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/enhancers/data/queries/StartTimer.graphql",
+		"/home/gergo/Documents/Paymo/paymoapp/Vagrantfile",
+		"/home/gergo/Documents/Paymo/widget/src/components/icons/StopTimerBig.js",
+		"/home/gergo/Documents/Paymo/widget/src/components/EntryEdit/enhancers/data/index.js",
+		"/home/gergo/Documents/Paymo/widget/src/components/DatePicker/DatePicker.js",
+		"/home/gergo/Documents/Paymo/widget/src/components/DatePicker/index.js",
+		"/home/gergo/Documents/Paymo/widget/.env.development.bak",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/EntriesEdit/enhancers/data/index.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/About/index.js",
+		"/home/gergo/Documents/Paymo/widget/config/webpack.config.prod.js",
+		"/home/gergo/Documents/Paymo/widget/node_modules/react/index.js",
+		"/home/gergo/Documents/Paymo/widget/node_modules/react/cjs/react.development.js",
+		"/home/gergo/Documents/Paymo/widget/node_modules/react/cjs/react.production.min.js",
+		"/home/gergo/Documents/Paymo/widget/src/components/EntryEdit/enhancers/data/queries/UserInfoQuery.graphql",
+		"/home/gergo/Documents/Paymo/widget/src/components/EntryEdit/enhancers/data/queries/TasksSubscriptions.graphql",
+		"/home/gergo/Documents/Paymo/widget/src/components/EntryEdit/enhancers/data/queries/ProjectsQuery.graphql",
+		"/home/gergo/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/gergo/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/index.js",
+		"/home/gergo/Documents/Paymo/widget/src/components/MuiPickersUtilsProvider.js",
+		"/home/gergo/Documents/Paymo/widget/config/webpackDevServer.config.js",
+		"/home/gergo/Documents/Paymo/widget/scripts/start.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/index.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/components/ListView/ListView.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/enhancers/data/queries/EntriesPageQuery.graphql",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/components/ListView/CompleteIcon.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/components/ListView/untitled.html",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/components/ListView/DateGroupView.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/components/index.js",
+		"/home/gergo/Documents/Paymo/widget/src/hocs/withTheme.js",
+		"/home/gergo/Documents/Paymo/widget/src/hocs/withLoading.js",
+		"/home/gergo/Documents/Paymo/widget/src/hocs/withConnection.js",
+		"/home/gergo/Documents/Paymo/widget/src/hocs/MuiPickersUtilsProvider.js",
+		"/home/gergo/Documents/Paymo/widget/src/hocs/queries/UserInfoQuery.graphql",
+		"/home/gergo/Documents/Paymo/widget/node_modules/material-ui-pickers/utils/MuiPickersUtilsProvider.js",
+		"/home/gergo/Documents/Paymo/widget/node_modules/material-ui-pickers/utils/MuiPickersUtilsProvider.d.ts",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/components/Timer/enhancers/withEdit.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/enhancers/data/queries/TasksSubscriptions.graphql",
+		"/home/gergo/Documents/Paymo/widget/src/components/Tooltip.js",
+		"/home/gergo/Documents/Paymo/widget/src/components/icons/source/task-checkbox.svg",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/components/ListView/CompletedCheckbox.js",
+		"/home/gergo/Documents/Paymo/graphql-api/src/connectors/paymoapi.js",
+		"/home/gergo/Documents/Paymo/widget/src/app/Root.jsx",
+		"/home/gergo/Documents/Paymo/widget/config/webpack.config.dev.js",
+		"/home/gergo/Documents/Paymo/widget/build/electron/main-process.js",
+		"/home/gergo/Documents/Paymo/widget/src/index.js",
+		"/home/gergo/Documents/Paymo/widget/src/app/duck.js",
+		"/home/gergo/Documents/Paymo/widget/src/services/errors/duck.js",
+		"/home/gergo/Documents/Paymo/widget/src/components/Disconnected.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Error/components/MainView.js",
+		"/home/gergo/Documents/Paymo/widget/.prettierrc.json",
+		"/home/gergo/Documents/Paymo/mobile.sublime-project",
+		"/home/gergo/Documents/Paymo/widget/src/components/CustomTimePicker/CustomTimePicker.js",
+		"/home/gergo/Documents/Paymo/widget/src/components/CustomTimePicker/index.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/enhancers/data/queries/EntriesPageEntry.graphql",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/enhancers/data/queries/MarkTaskAsComplete.graphql",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Settings/components/SettingsOptions.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Settings/duck.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/components/Timer/CleanExit/CleanExit.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/components/Timer/Idle/Timer.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/components/Timer/Idle/duck.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Settings/components/SettingsView.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Settings/components/SettingsAppBar.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Settings/components/index.js",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/enhancers/data/queries/CreateEntry.graphql",
+		"/home/gergo/.config/sublime-text-3/Packages/User/JsPrettier.sublime-settings",
+		"/home/gergo/Documents/Paymo/widget/src/scenes/Entries/components/Timer/CleanExit/index.js",
+		"/home/gergo/Documents/Paymo/widget/electron-resources/asd"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			"/home/gergo/Documents/Paymo/widget/electron-resources",
+			"/home/gergo/Documents/Paymo/widget",
+			"/home/gergo/Documents/Paymo/widget/src",
+			"/home/gergo/Documents/Paymo/widget/electron-resources/electron-main",
+			"/home/gergo/Documents/Paymo/widget/electron-resources",
+			"/home/gergo/Documents/Paymo/widget/src",
+			"/home/gergo/Documents/Paymo/widget/src/scenes",
+			"/home/gergo/Documents/Paymo/widget/src",
+			"/home/gergo/Documents/Paymo/widget/src/components/EntryEdit",
+			"/home/gergo/Documents/Paymo/widget/src",
+			"/home/gergo/Documents/Paymo/widget/src/components/EntryEdit",
+			"/home/gergo/Documents/Paymo/widget/src",
+			"/home/gergo/Documents/Paymo/widget/src/components/EntryEdit",
+			"/home/gergo/Documents/Paymo/widget/src",
+			"/home/gergo/Documents/Paymo/widget",
+			"/home/gergo/Documents/Paymo/widget/src",
+			"/home/gergo/Documents/Paymo/widget",
+			"/home/gergo/Documents/Paymo/widget/scripts",
+			"/home/gergo/Documents/Paymo/widget/src",
+			"/home/gergo/Documents/Paymo/widget/scripts",
+			"/home/gergo/Documents/Paymo/widget/src",
+			"/home/gergo/Documents/Paymo/widget/scripts",
+			"/home/gergo/Documents/Paymo/widget/src",
+			"/home/gergo/Documents/Paymo/widget/scripts",
+			"/home/gergo/Documents/Paymo/widget",
+			"/home/gergo/Documents/Paymo/widget/src",
+			"/home/gergo/Documents/Paymo/widget",
+			"/home/gergo/Documents/Paymo/widget/config",
+			"/home/gergo/Documents/Paymo/widget/src",
+			"/home/gergo/Documents/Paymo/widget/scripts",
+			"/home/gergo/Documents/Paymo/widget/src",
+			"/home/gergo/Documents/Paymo/widget",
+			"/home/gergo/Documents/Paymo/widget/src",
+			"/home/gergo/Documents/Paymo/widget"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"info",
+			"checkFOrUpdates",
+			"chrome",
+			"electron",
+			"hardenedRuntime",
+			"h",
+			"hardenedRuntime",
+			"hardened-runtime",
+			"process.env",
+			"goToTask",
+			"MacAppMenu",
+			"MaxAppMenu",
+			"menu",
+			"setHighlightMode",
+			"build",
+			"extends",
+			"electron",
+			"CSC",
+			"after_script_osx",
+			"job_generate",
+			"orderBy",
+			"onEnter",
+			"iconbutton",
+			"focusLock",
+			"startTimer",
+			"onItemClick",
+			"withHandlers",
+			"TasksView",
+			"onTaskClick",
+			"searchField",
+			"withSearch",
+			"taskSelectView",
+			"TaskSelectView",
+			"withHandlers",
+			"onProjectClick",
+			"projectsView",
+			"onClick",
+			"searchTerm",
+			"getGroups",
+			"orderBy",
+			"ProjectsView",
+			"withSearch",
+			"props",
+			"filterTasks",
+			"withSearch",
+			"withSearchFocus",
+			"searchResults",
+			"filterProjects",
+			"search",
+			"goToEntryAdd",
+			"entryAdd",
+			"entryStart",
+			"goToEntryAdd",
+			"am",
+			"onSetStartTime",
+			"onSetDuration",
+			"setDuration",
+			"onDurationPresetClick",
+			"onDurationPre",
+			"minToText",
+			"PropTypes",
+			"duration",
+			"setDuration",
+			"secondsTo",
+			"onTaskInfoClick",
+			"updateQuery",
+			"save",
+			"onEditBtnClick",
+			"save",
+			"setDuration",
+			"goToEntryAdd",
+			"chokidar",
+			"openTaskInApp",
+			"taskAdd",
+			"components/EntryEdit",
+			"onTaskAddCl",
+			"TaskSelectView",
+			"onTaskAddClick",
+			"Add new Task",
+			"+",
+			"plus",
+			"stopTimer",
+			"onStartBtnCl",
+			"click",
+			"startTimer",
+			"stop",
+			"stopTimer",
+			"loading",
+			"first",
+			"userInfo",
+			"hover",
+			"userInfo",
+			"DatePicker",
+			"userInfo",
+			"isNan",
+			"calendar",
+			"_PureComponent",
+			"projects",
+			"firstDayOfWeek",
+			"DatePicker",
+			"token",
+			"Timer",
+			"task_id",
+			"prettier",
+			"keycode",
+			"entryFormErrors",
+			"error",
+			"entryFormErrors",
+			"pure",
+			"pue",
+			"electron",
+			"Disconnected",
+			"ConnectionAlert",
+			"firstDay",
+			"caret",
+			"mask",
+			"moment",
+			"UserInfo",
+			"Action",
+			"keypress",
+			"connect",
+			"stopTimerOnExit",
+			"SET_TIMER_",
+			"getCreate",
+			"onTaskAddClick",
+			"React",
+			"send",
+			"willQuit"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"</div></td>",
+			"<td><div className=\"entry__cell\">",
+			"</div>",
+			"<div className=\"rtable__cell\">",
+			"</div>",
+			"<div className=\"rtable__head\">",
+			"$_POST",
+			"    "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".eslintrc.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 279,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								279,
+								279
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (ESLint).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": ".prettierrc.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 55,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52,
+								52
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/gergo/.config/sublime-text-3/Packages/JsPrettier/JsPrettier.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19276,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 126.0
+	},
+	"pinned_build_system": "",
+	"project": "matrix-room-deprecation-bot.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pa",
+				"package.json"
+			],
+			[
+				"change",
+				"CHANGELOG.md"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"clea",
+				"scripts/cleaning-installers.js"
+			],
+			[
+				".gitla",
+				".gitlab-ci.yml"
+			],
+			[
+				"actions",
+				"src/components/EntryEdit/components/Action/ActionView.js"
+			],
+			[
+				"withSea",
+				"src/hocs/withSearch.js"
+			],
+			[
+				"Interva",
+				"src/components/EntryEdit/components/Action/IntervalView.js"
+			],
+			[
+				"utils",
+				"src/utils/index.js"
+			],
+			[
+				"mainview edit",
+				"src/scenes/EntriesEdit/components/MainView.js"
+			],
+			[
+				"ActionView",
+				"src/components/EntryEdit/components/Action/ActionView.js"
+			],
+			[
+				"EntryEdit MainVi",
+				"src/components/EntryEdit/components/MainView.js"
+			],
+			[
+				"",
+				"src/components/EntryEdit/components/Action/IntervalView.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "keeco",
+		"selected_items":
+		[
+			[
+				"keeco",
+				"~/Documents/keeco/keeco-hub/keecohub.sublime-project"
+			],
+			[
+				"site",
+				"~/Documents/Paymo/binlog-sync-elastic/elasticsearch/chef/es_setup/siteMiculbilingv.sublime-workspace"
+			],
+			[
+				"mob",
+				"~/Documents/Paymo/mobile.sublime-project"
+			],
+			[
+				"mobi",
+				"~/Documents/Paymo/mobile.sublime-project"
+			],
+			[
+				"",
+				"~/Documents/Paymo/mobile.sublime-project"
+			],
+			[
+				"grap",
+				"~/Documents/Paymo/graphql-api.sublime-project"
+			],
+			[
+				"paymo",
+				"~/Documents/Paymo/paymoapp.sublime-project"
+			],
+			[
+				"bin",
+				"~/Documents/Paymo/binlog-sync-elastic.sublime-project"
+			],
+			[
+				"wi",
+				"~/Documents/react/weather/weatherapp.sublime-project"
+			],
+			[
+				"ele",
+				"~/Documents/Paymo/binlog-sync-elastic.sublime-project"
+			],
+			[
+				"paymoa",
+				"~/Documents/Paymo/paymoapp.sublime-project"
+			],
+			[
+				"keec",
+				"~/Documents/keeco/keeco-hub/keecohub.sublime-project"
+			],
+			[
+				"keecoh",
+				"~/Documents/keeco-hub/keecohub.sublime-workspace"
+			],
+			[
+				"kee",
+				"~/Documents/keeco-hub/keecohub.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 1240.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 359.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

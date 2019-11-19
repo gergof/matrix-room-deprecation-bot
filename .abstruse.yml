@@ -1,0 +1,15 @@
+image: nodejs
+branches:
+  - master
+  - dev
+matrix:
+  - env: SCRIPT=lint
+  - env: SCRIPT=test:coverage
+install:
+  - npm ci
+script:
+  - npm run $SCRIPT
+deploy:
+  - npm ci
+  - npm run build
+  - echo "build and deploy will be implemented later"
