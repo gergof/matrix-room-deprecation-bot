@@ -1,7 +1,7 @@
 import Winston from 'winston';
 
 const logger = Winston.createLogger({
-	level: 'info',
+	level: process.env.NODE_ENV == 'production' ? 'info' : 'debug',
 	format: Winston.format.combine(
 		Winston.format.timestamp(),
 		Winston.format.colorize({
