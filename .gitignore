@@ -1,4 +1,6 @@
 node_modules/
 build/
 coverage/
-*.sublime-project
+db/
+.env
+*.sublime-*
