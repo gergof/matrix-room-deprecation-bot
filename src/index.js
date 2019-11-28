@@ -28,4 +28,12 @@ initDB({ config, logger: getLogger('datastore') }).then(db => {
 			});
 		}
 	);
+
+	process.on('SIGTERM', () => {
+		logger.log({ level: 'info', message: 'Received SIGTERM. Closing.' });
+		db.close().then(() => {
+			logger.log({ level: 'info', message: 'Cleanup complete. Closing.' });
+			process.exit(0);
+		});
+	});
 });
