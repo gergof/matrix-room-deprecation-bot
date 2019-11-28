@@ -12,4 +12,17 @@ script:
 deploy:
   - npm ci
   - npm run build
-  - echo "build and deploy will be implemented later"
+  - cp -t build package.json package-lock.json
+  - sudo docker login -u $DOCKER_USER -p $DOCKER_PASSWD
+  - sudo docker build -t gergof/matrix-room-deprecation-bot:$(if [ "$ABSTRUSE_BRANCH" == "master" ]; then echo "latest"; else echo $ABSTRUSE_BRANCH | sed -r 's/\//_/g'; fi) .
+  - sudo docker push gergof/matrix-room-deprecation-bot:$(if [ "$ABSTRUSE_BRANCH" == "master" ]; then echo "latest"; else echo $ABSTRUSE_BRANCH | sed -r 's/\//_/g'; fi)
+  - sudo docker logout
+  - >
+    if [ "$ABSTRUSE_BRANCH" == "master" ] && [ "$ABSTRUSE_EVENT_TYPE" == "push" ]; then
+      if [ "$(sudo docker -qa -f name=matrix_room_deprecation_bot)" ]; then
+        sudo docker stop matrix_room_deprecation_bot
+        sudo docker rm matrix_room_deprecation_bot
+      fi
+      sudo docker pull gergof/matrix-room-deprecation-bot
+      sudo docker run -dit --name matrix_room_deprecation_bot --restart=unless-stopped -v /srv/matrix-room-deprecation-bot:/data gergof/matrix-room-deprecation-bot:latest
+    fi
