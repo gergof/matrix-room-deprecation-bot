@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/gergof/matrix-room-deprecation-bot/compare/v0.1.1...v0.1.2) (2019-11-28)
+
+
+### CI/Build
+
+* Fix build script ([28c915f](https://github.com/gergof/matrix-room-deprecation-bot/commit/28c915fbe9319f4d7b6820551f706dd824e76cef))
+
 ### 0.1.1 (2019-11-28)
 
 
