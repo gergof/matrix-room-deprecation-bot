@@ -19,7 +19,7 @@ deploy:
   - sudo docker logout
   - >
     if [ "$ABSTRUSE_BRANCH" == "master" ] && [ "$ABSTRUSE_EVENT_TYPE" == "push" ]; then
-      if [ "$(sudo docker -qa -f name=matrix_room_deprecation_bot)" ]; then
+      if [ "$(sudo docker ps -qa -f name=matrix_room_deprecation_bot)" ]; then
         sudo docker stop matrix_room_deprecation_bot
         sudo docker rm matrix_room_deprecation_bot
       fi
