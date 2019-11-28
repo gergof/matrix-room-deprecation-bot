@@ -1,0 +1,87 @@
+{
+  "name": "matrix-room-deprecation-bot",
+  "version": "0.1.1",
+  "description": "A bot for matrix.org that will alert your users to move to an other room, since the community moved.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "test:coverage": "jest --collectCoverage --passWithNoTests --verbose",
+    "lint": "eslint 'src/**/*.js'",
+    "format": "prettier --write 'src/**/*.js'",
+    "start": "nodemon --exec babel-node src/index.js",
+    "build": "cross-env NODE_ENV=production babel src -d build",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gergof/matrix-room-deprecation-bot.git"
+  },
+  "keywords": [
+    "matrix",
+    "bot",
+    "deprecation"
+  ],
+  "author": "Fándly Gergő-Zoltán <gergo@systemtest.tk>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/gergof/matrix-room-deprecation-bot/issues"
+  },
+  "homepage": "https://github.com/gergof/matrix-room-deprecation-bot#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "cross-env": "^6.0.3",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.4",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "level": "^6.0.0",
+    "matrix-js-sdk": "^2.4.3",
+    "path": "^0.12.7",
+    "standard-version": "^7.0.1",
+    "winston": "^3.2.1"
+  },
+  "standard-version": {
+    "types": [
+      {
+        "type": "feat",
+        "section": "Features"
+      },
+      {
+        "type": "fix",
+        "section": "Bug Fixes"
+      },
+      {
+        "type": "ci",
+        "section": "CI/Build"
+      },
+      {
+        "type": "chore",
+        "hidden": true
+      },
+      {
+        "type": "docs",
+        "section": "Documentation"
+      },
+      {
+        "type": "style",
+        "hidden": true
+      },
+      {
+        "type": "refactor",
+        "section": "Refactor"
+      },
+      {
+        "test": "test",
+        "section": "Testing"
+      }
+    ]
+  }
+}
