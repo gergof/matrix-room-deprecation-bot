@@ -1,26 +1,49 @@
-const sendDeprecationMessage = (e, targetId, { matrixClient }) => {
+import Mustache from 'mustache';
+import sanitizeHtml from 'sanitize-html';
+
+const sendDeprecationMessage = (e, data, { matrixClient }) => {
+	const renderParams = {
+		currentRoomId: e.sender.roomId,
+		roomId: data.roomId,
+		roomLink: `<a href="https://matrix.to/#/${data.roomId}">This room</a>`
+	};
+
 	matrixClient.sendHtmlMessage(
 		e.sender.roomId,
-		`This room is deprecated. Please join ${targetId} instead!`,
-		`<h3><font color="red" data-mx-color="red">This room is deprecated. Please join <a href="https://matrix.to/#/${targetId}">This room</a> instead.</font></h3>`,
-		''
+		sanitizeHtml(Mustache.render(data.message, renderParams), {
+			allowedTags: []
+		}),
+		Mustache.render(data.message, renderParams)
 	);
 };
 
-const inviteToTarget = (member, targetId, { matrixClient }) => {
-	matrixClient.invite(targetId, member.userId);
+const inviteToTarget = (member, data, { matrixClient }) => {
+	matrixClient.invite(data.roomId, member.userId);
 };
 
 const init = ({ matrixClient, db, logger }) => {
+	const throttle = {};
+
 	matrixClient.on('event', e => {
 		if (e.event.type == 'm.room.message' && e.sender) {
 			db.get(e.sender.roomId).then(
-				targetId => {
+				data => {
+					data = JSON.parse(data);
+					if (
+						throttle[e.sender.roomId] &&
+						throttle[e.sender.roomId] > Date.now()
+					) {
+						return;
+					}
+
+					throttle[e.sender.roomId] = Date.now() + data.throttle * 1000;
+
 					logger.log({
 						level: 'debug',
 						message: 'Sending deprecation warning'
 					});
-					sendDeprecationMessage(e, targetId, { matrixClient });
+
+					sendDeprecationMessage(e, data, { matrixClient });
 				},
 				() => {
 					logger.log({ level: 'debug', message: 'Room is not deprecated' });
@@ -32,17 +55,19 @@ const init = ({ matrixClient, db, logger }) => {
 	matrixClient.on('RoomMember.membership', (e, member) => {
 		if (member.membership == 'join') {
 			db.get(member.roomId).then(
-				targetId => {
+				data => {
+					data = JSON.parse(data);
 					logger.log({
 						level: 'debug',
 						message: 'Sending deprecation warning on join'
 					});
-					sendDeprecationMessage(
-						{ sender: { roomId: member.roomId } },
-						targetId,
-						{ matrixClient }
-					);
-					inviteToTarget(member, targetId, { matrixClient });
+					sendDeprecationMessage({ sender: { roomId: member.roomId } }, data, {
+						matrixClient
+					});
+
+					if (data.invite) {
+						inviteToTarget(member, data, { matrixClient });
+					}
 				},
 				() => {
 					logger.log({ level: 'debug', message: 'Room is not deprecated' });
