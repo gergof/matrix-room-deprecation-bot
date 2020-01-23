@@ -3,7 +3,7 @@ const undeprecate = (e, { matrixClient, db, logger }) => {
 		() => {
 			logger.log({
 				level: 'info',
-				message: `Disabled deprecation handler for ${e.sender.room}`
+				message: `Disabled deprecation handler for ${e.sender.roomId}`
 			});
 
 			db.del(e.sender.roomId).then(() => {
