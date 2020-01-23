@@ -13,18 +13,30 @@ logger.log({ level: 'info', message: 'Starting Room Deprecation Bot' });
 initDB({ config, logger: getLogger('datastore') }).then(db => {
 	initMatrixClient({ config, logger: getLogger('matrix') }).then(
 		matrixClient => {
-			initCommandHandler({
-				config,
-				matrixClient,
-				db,
-				logger: getLogger('cmd')
-			});
-			initAutoJoin({ config, matrixClient, db, logger: getLogger('autjoin') });
-			initDeprecationWarning({
-				config,
-				matrixClient,
-				db,
-				logger: getLogger('deprecation')
+			matrixClient.once('sync', () => {
+				logger.log({
+					level: 'info',
+					message: 'Sync completed. Initializing modules'
+				});
+
+				initCommandHandler({
+					config,
+					matrixClient,
+					db,
+					logger: getLogger('cmd')
+				});
+				initAutoJoin({
+					config,
+					matrixClient,
+					db,
+					logger: getLogger('autjoin')
+				});
+				initDeprecationWarning({
+					config,
+					matrixClient,
+					db,
+					logger: getLogger('deprecation')
+				});
 			});
 		}
 	);
