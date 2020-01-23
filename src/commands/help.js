@@ -8,7 +8,7 @@ Commands:
 !deprecate <room ID> - redirect users from the current room to an other room. You need to execute this command before you could use any other features
 !deprecate help - print this message
 !deprecate get-config - print the current configuration
-!deprecate message <message> - set the deprecation message to message. You can use HTML and mustache (https://mustache.github.io/)
+!deprecate message <message> - set the deprecation message. You can use HTML and mustache (https://mustache.github.io/)
     The following tags are available:
     {{currentRoomId}} - the ID of the current room
     {{roomId}} - the ID of the target room
