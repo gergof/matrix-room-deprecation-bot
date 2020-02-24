@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/gergof/matrix-room-deprecation-bot/compare/v1.2.0...v1.2.1) (2020-02-24)
+
+
+### Bug Fixes
+
+* **warning:** Don't ignore throttle for join events ([eafddc3](https://github.com/gergof/matrix-room-deprecation-bot/commit/eafddc3c0e7f72cd4827cadb29396ea07f1e1f69))
+
 ## 1.2.0 (2020-01-23)
 
 
