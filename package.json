@@ -1,6 +1,6 @@
 {
   "name": "matrix-room-deprecation-bot",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A bot for matrix.org that will alert your users to move to an other room, since the community moved.",
   "main": "src/index.js",
   "scripts": {
