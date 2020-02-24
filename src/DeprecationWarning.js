@@ -57,6 +57,15 @@ const init = ({ matrixClient, db, logger }) => {
 			db.get(member.roomId).then(
 				data => {
 					data = JSON.parse(data);
+					if (
+						throttle[member.roomId] &&
+						throttle[member.roomId] > Date.now()
+					) {
+						return;
+					}
+
+					throttle[member.roomId] = Date.now() + data.throttle * 1000;
+
 					logger.log({
 						level: 'debug',
 						message: 'Sending deprecation warning on join'
