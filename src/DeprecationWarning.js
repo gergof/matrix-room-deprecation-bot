@@ -57,10 +57,7 @@ const init = ({ matrixClient, db, logger }) => {
 			db.get(member.roomId).then(
 				data => {
 					data = JSON.parse(data);
-					if (
-						throttle[member.roomId] &&
-						throttle[member.roomId] > Date.now()
-					) {
+					if (throttle[member.roomId] && throttle[member.roomId] > Date.now()) {
 						return;
 					}
 
