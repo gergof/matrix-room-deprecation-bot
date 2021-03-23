@@ -2,7 +2,7 @@ const invite = (e, { matrixClient, db, logger }) => {
 	db.get(e.sender.roomId).then(
 		data => {
 			data = JSON.parse(data);
-			const newValue = e.event.content.body.split(' ')[3] == 'true';
+			const newValue = e.event.content.body.split(' ')[2] == 'true';
 
 			db.put(
 				e.sender.roomId,
