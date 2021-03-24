@@ -1,0 +1,79 @@
+kind: pipeline
+type: docker
+name: build
+trigger:
+  ref:
+    - refs/heads/master
+    - refs/heads/dev
+    - refs/pull/*
+    - refs/tags/*
+steps:
+  - name: install-deps
+    image: node
+    commands:
+      - npm ci
+  - name: lint
+    image: node
+    commands:
+      - npm run lint
+  - name: build
+    image: node
+    commands:
+      - npm run build
+  - name: docker-build
+    image: docker:dind
+    volumes:
+      - name: dockersock
+        path: /var/run
+    commands:
+      - sleep 5
+      - cp -t build package.json package-lock.json
+      - docker login -u $DOCKER_USER $DOCKER_PASSWD
+      - docker build -t gergof/matrix-room-deprecation-bot:latest .
+      - docker tag gergof/matrix-room-deprecation-bot:latest gergof/matrix-room-deprecation-bot:$DRONE_TAG
+      - docker push gergof/matrix-room-deprecation-bot:latest
+      - docker push gergof/matrix-room-deprecation-bot:$DRONE_TAG
+      - docker logout
+    when:
+      status:
+        - success
+      event:
+        - tag
+    environment:
+      DOCKER_USER:
+        from_secret: docker_user
+      DOCKER_PASSWD:
+        from_secret: docker_passwd
+services:
+  - name: docker
+    image: docker:dind
+    privileged: true
+    volumes:
+      - name: dockersock
+        path: /var/run
+volumes:
+  - name: dockersock
+    temp: {}
+---
+kind: pipeline
+type: ssh
+name: deploy
+server:
+  host:
+    from_secret: deploy_host
+  user:
+    from_secret: deploy_user
+  ssh_key:
+    from_secret: deploy_key
+trigger:
+  event:
+    - promote
+  target:
+    - production
+steps:
+  - name: pull
+    commands:
+      - docker-compose pull
+  - name: recreate
+    commands:
+      - docker-compose up -d bot-deprecation
