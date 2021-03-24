@@ -66,9 +66,10 @@ steps:
       - docker-compose pull
   - name: recreate
     commands:
+      - cd /srv/matrix
       - docker-compose up -d bot-deprecation
 ---
 kind: signature
-hmac: 7621052b37ac535b9a885091d1ecd50379c2a01a172db42d834f45c8a5d98c96
+hmac: 219920d8813b3bc881d06772f2ec4637b6a5567c0c591c3649acad5cba92c0b3
 
 ...
