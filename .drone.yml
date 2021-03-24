@@ -3,6 +3,9 @@ kind: pipeline
 type: docker
 name: build
 trigger:
+  event:
+    - push
+    - tag
   ref:
     - refs/heads/master
     - refs/heads/dev
@@ -59,12 +62,13 @@ trigger:
 steps:
   - name: pull
     commands:
+      - cd /srv/matrix
       - docker-compose pull
   - name: recreate
     commands:
       - docker-compose up -d bot-deprecation
 ---
 kind: signature
-hmac: 3e2edd21200386719fe6e460d14a9a2d62bd14ff65ddc4bad1cc388e289bf65c
+hmac: 7621052b37ac535b9a885091d1ecd50379c2a01a172db42d834f45c8a5d98c96
 
 ...
