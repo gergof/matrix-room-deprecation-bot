@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.3](https://github.com/gergof/matrix-room-deprecation-bot/compare/v1.2.2...v1.2.3) (2021-03-24)
+
+
+### Bug Fixes
+
+* **invite:** use third word for boolean value (zero-based indexing) ([c4b3819](https://github.com/gergof/matrix-room-deprecation-bot/commit/c4b381917ba327fe6777f020644c8b1d07359e0c))
+
+
+### CI/Build
+
+* Sign drone yml ([f2d9cd0](https://github.com/gergof/matrix-room-deprecation-bot/commit/f2d9cd0c9b145d5f74793e0604190e42d1637476))
+* Transition to drone-ci ([47be068](https://github.com/gergof/matrix-room-deprecation-bot/commit/47be068fd221c28c94591b4aec9bbec550ec0320))
+
+
+### Documentation
+
+* Update badge ([c9dee9a](https://github.com/gergof/matrix-room-deprecation-bot/commit/c9dee9afac85bff44410c02229d3bc3b37f991a1))
+
 ### [1.2.2](https://github.com/gergof/matrix-room-deprecation-bot/compare/v1.2.1...v1.2.2) (2020-02-24)
 
 
