@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.6](https://github.com/gergof/matrix-room-deprecation-bot/compare/v1.2.5...v1.2.6) (2021-03-24)
+
+
+### CI/Build
+
+* Fixed home directory privileges ([7028f20](https://github.com/gergof/matrix-room-deprecation-bot/commit/7028f20fd9b8d36d6ba8aaf6688a722999594f33))
+
 ### [1.2.5](https://github.com/gergof/matrix-room-deprecation-bot/compare/v1.2.4...v1.2.5) (2021-03-24)
 
 
