@@ -21,41 +21,25 @@ steps:
     image: node
     commands:
       - npm run build
-  - name: docker-build
-    image: docker:dind
-    volumes:
-      - name: dockersock
-        path: /var/run
-    commands:
-      - sleep 5
       - cp package.json build
       - cp package-lock.json build
-      - docker login -u $DOCKER_USER $DOCKER_PASSWD
-      - docker build -t gergof/matrix-room-deprecation-bot:latest .
-      - docker tag gergof/matrix-room-deprecation-bot:latest gergof/matrix-room-deprecation-bot:$DRONE_TAG
-      - docker push gergof/matrix-room-deprecation-bot:latest
-      - docker push gergof/matrix-room-deprecation-bot:$DRONE_TAG
-      - docker logout
+  - name: docker
+    image: plugins/docker
+    settings:
+      username:
+        from_secret: docker_user
+      password:
+        from_secret: docker_passwd
+      repo: gergof/matrix-room-deprecation-bot
+      autotag: true
+      tags:
+        - latest
+        - ${DRONE_TAG}
     when:
       status:
         - success
       event:
         - tag
-    environment:
-      DOCKER_USER:
-        from_secret: docker_user
-      DOCKER_PASSWD:
-        from_secret: docker_passwd
-services:
-  - name: docker
-    image: docker:dind
-    privileged: true
-    volumes:
-      - name: dockersock
-        path: /var/run
-volumes:
-  - name: dockersock
-    temp: {}
 ---
 kind: pipeline
 type: ssh
@@ -81,6 +65,6 @@ steps:
       - docker-compose up -d bot-deprecation
 ---
 kind: signature
-hmac: c6263007bf337e15f7cb8f30962fc53b949cbc297a2f57e71094f2948d2c0dea
+hmac: 3e2edd21200386719fe6e460d14a9a2d62bd14ff65ddc4bad1cc388e289bf65c
 
 ...
