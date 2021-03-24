@@ -1,6 +1,6 @@
 # Matrix Room Deprecation Bot
 
-[![ci](https://ci.systemtest.tk/badge/8)](https://ci.systemtest.tk/repo/8)
+[![Build Status](https://ci.systest.eu/api/badges/gergof/matrix-room-deprecation-bot/status.svg?ref=refs/heads/master)](https://ci.systest.eu/gergof/matrix-room-deprecation-bot)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 [![matrix](https://img.shields.io/badge/matrix-%23craftobot%3Asystemtest.tk-blue?logo=matrix)](https://matrix.to/#/#craftobot:systemtest.tk)
 [![docker image](https://img.shields.io/badge/docker-gergof%2Fmatrix--room--deprecation--bot-blue?logo=docker)](https://hub.docker.com/r/gergof/matrix-room-deprecation-bot)
