@@ -28,7 +28,8 @@ steps:
         path: /var/run
     commands:
       - sleep 5
-      - cp -t build package.json package-lock.json
+      - cp package.json build
+      - cp package-lock.json build
       - docker login -u $DOCKER_USER $DOCKER_PASSWD
       - docker build -t gergof/matrix-room-deprecation-bot:latest .
       - docker tag gergof/matrix-room-deprecation-bot:latest gergof/matrix-room-deprecation-bot:$DRONE_TAG
@@ -80,6 +81,6 @@ steps:
       - docker-compose up -d bot-deprecation
 ---
 kind: signature
-hmac: 70c937ef1c0c4e7f527e91895d370456d843f37b0997a04d4bc97b9048f3d5e7
+hmac: c6263007bf337e15f7cb8f30962fc53b949cbc297a2f57e71094f2948d2c0dea
 
 ...
