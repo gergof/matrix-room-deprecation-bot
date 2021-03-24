@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.5](https://github.com/gergof/matrix-room-deprecation-bot/compare/v1.2.4...v1.2.5) (2021-03-24)
+
+
+### CI/Build
+
+* Build docker image using plugin ([3bee530](https://github.com/gergof/matrix-room-deprecation-bot/commit/3bee530044f5e59799a7cac0070252ba723a7e0c))
+
 ### [1.2.4](https://github.com/gergof/matrix-room-deprecation-bot/compare/v1.2.3...v1.2.4) (2021-03-24)
 
 
