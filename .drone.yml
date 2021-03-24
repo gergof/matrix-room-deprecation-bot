@@ -1,3 +1,4 @@
+---
 kind: pipeline
 type: docker
 name: build
@@ -77,3 +78,8 @@ steps:
   - name: recreate
     commands:
       - docker-compose up -d bot-deprecation
+---
+kind: signature
+hmac: 70c937ef1c0c4e7f527e91895d370456d843f37b0997a04d4bc97b9048f3d5e7
+
+...
