@@ -46,7 +46,7 @@
     "matrix-js-sdk": "^2.4.3",
     "mustache": "^4.0.0",
     "path": "^0.12.7",
-    "sanitize-html": "^1.21.1",
+    "sanitize-html": "^2.3.2",
     "standard-version": "^8.0.1",
     "winston": "^3.2.1"
   },
