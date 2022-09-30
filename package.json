@@ -43,7 +43,7 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "level": "^6.0.0",
-    "matrix-js-sdk": "^2.4.3",
+    "matrix-js-sdk": "^19.7.0",
     "mustache": "^4.0.0",
     "path": "^0.12.7",
     "sanitize-html": "^1.21.1",
